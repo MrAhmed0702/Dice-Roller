@@ -13,6 +13,6 @@ function rollDice() {
         images.push(`<img src="dice-images/dice${dice}.png" alt="dice${dice}" width="100" height="100">`);
     }
 
-    result.textContent = `dice: ${values.join(', ')}`;
+    result.textContent = `Dice: ${values.join(', ')}`;
     image.innerHTML = `${images.join(' ')}`;
 }
