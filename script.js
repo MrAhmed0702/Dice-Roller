@@ -10,7 +10,7 @@ function rollDice() {
     for (let i = 1; i <= num; i++) {
         let dice = Math.floor(Math.random() * 6) + 1;
         values.push(dice);
-        images.push(`<img src="dice-images/dice${dice}.png" alt="dice${dice}">`);
+        images.push(`<img src="dice-images/dice${dice}.png" alt="dice${dice}" width="100" height="100">`);
     }
 
     result.textContent = `dice: ${values.join(', ')}`;
